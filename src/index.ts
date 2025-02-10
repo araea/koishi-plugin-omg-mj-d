@@ -299,7 +299,7 @@ export async function apply(ctx: Context, cfg: Config) {
       const result = await submitBlend(base64Array, dimensions);
       if (cfg.isLog) {
         logger.info(result);
-        logger.info(`Blend: ${allImgUrls.join(', ')}`);
+        logger.info(`Blend: ${allImgUrls.join(' ')}`);
       }
 
       if (!result.success) {
