@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-omg-mj-d",
-  "description": "",
+  "description": "Koishi 的 Midjourney AI 绘图插件（OhMyGpt API）。",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -8,14 +8,31 @@
     "lib",
     "dist"
   ],
-  "license": "MIT",
-  "scripts": {},
+  "koishi": {
+    "service": {
+      "required": [
+        "database"
+      ]
+    }
+  },
+  "license": "MIT OR Apache-2.0",
+  "author": "Nawyjx <3373167460@qq.com>",
+  "homepage": "https://www.npmjs.com/package/koishi-plugin-omg-mj-d?activeTab=readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araea/koishi-plugin-omg-mj-d.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "ai",
+    "midjourney",
+    "mj",
+    "draw",
+    "ohmygpt",
+    "绘图"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
