@@ -670,6 +670,8 @@ export async function apply(ctx: Context, cfg: Config) {
   }
 
   function removeTrailingSlash(baseURL: string): string {
+    baseURL = baseURL.trim()
+
     if (baseURL.endsWith('/')) {
       return baseURL.slice(0, -1);
     } else {
