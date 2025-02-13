@@ -7,7 +7,7 @@ Koishi 的 Midjourney AI 绘图插件（[OhMyGpt](https://www.ohmygpt.com/) API�
 
 ## **使用**
 
-1. 设置指令别名。
+1. 设置指令别名（若没看到指令，请重启 commands 插件）。
 2. 注册 [OhMyGpt](https://www.ohmygpt.com/) (邀请码 `xr26JIUD`) 并配置。
 3. 使用 `omd.绘图` 指令进行绘图，如：`omd.绘图 a dog`。
 4. 后续操作：引用回复消息，并输入 ` 1 ` 、` 2 ` 、` 3 ` 、` 4 ` ... (注意！所有数字前后都需有空格)。
